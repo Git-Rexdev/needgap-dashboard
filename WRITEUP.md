@@ -2,43 +2,42 @@
 
 ## 1. Analytical Approach
 
-We analyzed 6,000 competitor reviews from 15 Indian D2C brands. The data pipeline deduplicated 206 identical reviews, yielding 5,794 cleaned records with 15 normalized unmet-need tags. 
+We analyzed 5,794 cleaned product reviews (from 6,000 raw, with 206 exact content duplicates removed) across 15 Indian D2C brands, 8 product categories, 28 products, and 4 review platforms. 85.36% of reviews were verified purchases.
 
-To prioritize R&D focus, we engineered a composite **Opportunity Score (0–100)** per need:
-$$Score = 100 \times \left( 0.34 \cdot \text{Freq}_{\text{norm}} + 0.33 \cdot \text{Sev}_{\text{norm}} + 0.33 \cdot \text{Val}_{\text{norm}} \right)$$
+We engineered a composite **Opportunity Score (0-100)** per unmet-need tag using three normalized dimensions:
 
-- **Frequency**: Percentage of total reviews mentioning the tag.
-- **Severity**: Star rating deficit ($5.0 - \text{Avg Rating}$).
-- **Validation**: Average helpful votes per review.
+- **Frequency** (weight 0.34): What share of total reviews mention this need?
+- **Severity** (weight 0.33): How much does the star rating drop when this need appears? (5.0 minus avg rating)
+- **Validation** (weight 0.33): Do other consumers agree this complaint matters? (avg helpful votes)
+
+All components are min-max normalized to [0, 1] across the 15 tags before combining. We then layered deeper cross-dimensional analysis: category-level breakdowns, co-occurrence matrices, brand vulnerability heatmaps, platform-specific patterns, and verified-purchase correlation.
 
 ---
 
 ## 2. Top 3 Findings
 
-### Finding 1: `vegan_certification` (Opportunity Score: 85.98)
-- **Data**: 9.99% frequency (579 reviews), **2.07/5.0 average rating**, and **51.84 helpful votes/review**.
-- **Insight**: This represents the highest opportunity score in the dataset. Consumers express severe dissatisfaction with unverified animal-derivative ingredients, heavily validating peer complaints demanding official third-party vegan certification.
+### Finding 1: Vegan Certification is the Largest Unmet Need (Score: 85.98)
 
-### Finding 2: `ingredient_transparency` (Opportunity Score: 74.89)
-- **Data**: **10.53% frequency** (610 reviews — highest volume tag in market), 2.08/5.0 rating, 49.62 helpful votes.
-- **Insight**: Customers across all 15 competitor brands consistently report frustration with undisclosed proprietary blends and vague active ingredient percentages.
+579 reviews (9.99% of dataset) mention vegan certification concerns with an average rating of just 2.07/5.0 and the highest community validation at 51.84 helpful votes per review. This need spans all 15 brands nearly equally (top brand holds only 9.2% share), confirming it is an industry-wide systemic gap, not a single competitor's failure. 73.5% of these reviews give 1 or 2 stars.
 
-### Finding 3: `side_effect_concern` (Opportunity Score: 60.31)
-- **Data**: 9.51% frequency, **2.07/5.0 rating**, **50.03 helpful votes**.
-- **Insight**: Identified via pattern mining as a **rare-but-severe** need. While lower in raw volume than transparency, its high severity rating and strong social validation indicate urgent consumer anxiety regarding skin irritation and digestive discomfort.
+### Finding 2: Ingredient Transparency and Personalization Demand are Tightly Correlated
+
+Our co-occurrence analysis revealed that "ingredient transparency" and "personalization demand" appear together in 78 reviews (1.35% of all reviews) -- the strongest tag pair in the dataset. Consumers who want to know exactly what is in a product also want guidance tailored to their specific needs. Addressing transparency alone without personalization leaves the complaint loop incomplete.
+
+### Finding 3: Side Effect Concern is a Rare-but-Severe Hidden Threat
+
+Despite moderate frequency (9.51%), "side effect concern" has the lowest average rating (2.07/5.0) and strong social validation (50.03 helpful votes). Pattern mining flagged this as a rare-but-severe need -- lower volume but extremely high pain. Competitors ignoring this are vulnerable to disruption from a brand that leads with clinical safety evidence.
 
 ---
 
 ## 3. Recommended R&D Product Opportunity
 
-### Product Concept: **100% Certified Vegan & Clean-Label Transparent Formulations**
-- **Target Category**: Daily Wellness & Active Skincare.
-- **Why R&D Should Pursue This**:
-  By combining third-party vegan certification (`vegan_certification`, Score 85.98) with full quantitative ingredient percentage disclosure (`ingredient_transparency`, Score 74.89), R&D directly addresses the top two market pain points representing over 20% of total consumer complaints. Formulating with hypoallergenic, gentle botanical actives also eliminates `side_effect_concern` (Score 60.31).
+### Build: 100% Certified Vegan & Clean-Label Transparent Formulations
+
+Combine third-party vegan certification (Score 85.98) with quantitative ingredient disclosure (Score 74.89) in a daily wellness or active skincare line. This directly addresses the top two market pain points representing over 20% of total consumer complaints. Formulating with hypoallergenic botanical actives also preempts the side-effect concern (Score 60.31). The cross-brand nature of these needs means no incumbent owns the solution -- first mover advantage is available.
 
 ---
 
 ## 4. Honest Limitation
 
-**Reliance on Pre-Categorized Tag Distributions**:
-The primary limitation of this analysis is that unmet needs were evaluated using pre-tagged categorical labels rather than raw contextual Large Language Model (LLM) embeddings. Consequently, nuanced multi-layered feedback (e.g., distinguishing between packaging leaks vs. dosage dropper inaccuracies within general packaging tags) requires deeper semantic sentiment parsing.
+The analysis relies on pre-categorized tag labels rather than raw NLP-derived sentiment embeddings. Multi-layered feedback within a single review (e.g., distinguishing "gelatin in capsules" from "no vegan logo on packaging" within the vegan_certification tag) cannot be separated without deeper semantic parsing. Additionally, co-occurrence counts between needs are modest in absolute terms (1-2% of reviews), so correlation claims should be validated with a larger sample before major R&D investment.
