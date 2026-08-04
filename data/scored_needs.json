@@ -1,0 +1,1270 @@
+{
+  "weights": {
+    "frequency": 0.34,
+    "severity": 0.33,
+    "validation": 0.33
+  },
+  "total_reviews_analyzed": 5794,
+  "scored_needs": [
+    {
+      "tag": "vegan_certification",
+      "opportunity_score": 85.98,
+      "metrics": {
+        "frequency_pct": 9.99,
+        "normalized_frequency": 0.6961,
+        "avg_rating": 2.07,
+        "raw_severity": 2.93,
+        "normalized_severity": 0.8881,
+        "avg_helpful_votes": 51.84,
+        "normalized_validation": 1
+      },
+      "mention_count": 579,
+      "top_affected_brands": [
+        {
+          "brand": "MCaffeine",
+          "count": 53
+        },
+        {
+          "brand": "Sugar Cosmetics",
+          "count": 46
+        },
+        {
+          "brand": "The Derma Co",
+          "count": 44
+        },
+        {
+          "brand": "MuscleBlaze",
+          "count": 43
+        },
+        {
+          "brand": "Mamaearth",
+          "count": 43
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Whey Protein Powder",
+          "count": 27
+        },
+        {
+          "product": "Vitamin C Serum",
+          "count": 26
+        },
+        {
+          "product": "Plant Protein Shake",
+          "count": 26
+        },
+        {
+          "product": "Multivitamin Gummies",
+          "count": 26
+        },
+        {
+          "product": "Face Wash for Men",
+          "count": 26
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-01404",
+          "brand": "Mamaearth",
+          "product": "Plant Protein Shake",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. want refill option. can't pause subscription easily. contains gelatin capsules. perfume gives me headache."
+        },
+        {
+          "review_id": "NREV-01965",
+          "brand": "HealthKart",
+          "product": "Whey Protein Powder",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. is this vegan. too bulky for carry-on. want refill option."
+        },
+        {
+          "review_id": "NREV-02049",
+          "brand": "Oziva",
+          "product": "Face Wash for Men",
+          "rating": 4,
+          "helpful_votes": 100,
+          "review_text": "Really happy with results. is this vegan."
+        }
+      ]
+    },
+    {
+      "tag": "ingredient_transparency",
+      "opportunity_score": 74.89,
+      "metrics": {
+        "frequency_pct": 10.53,
+        "normalized_frequency": 1,
+        "avg_rating": 2.08,
+        "raw_severity": 2.92,
+        "normalized_severity": 0.7969,
+        "avg_helpful_votes": 49.62,
+        "normalized_validation": 0.4421
+      },
+      "mention_count": 610,
+      "top_affected_brands": [
+        {
+          "brand": "Kapiva",
+          "count": 47
+        },
+        {
+          "brand": "The Derma Co",
+          "count": 47
+        },
+        {
+          "brand": "HealthKart",
+          "count": 45
+        },
+        {
+          "brand": "Bombay Shaving Co",
+          "count": 45
+        },
+        {
+          "brand": "WOW Skin Science",
+          "count": 44
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Probiotics Capsules",
+          "count": 35
+        },
+        {
+          "product": "Lip Balm Set",
+          "count": 28
+        },
+        {
+          "product": "Apple Cider Vinegar",
+          "count": 27
+        },
+        {
+          "product": "Niacinamide Serum",
+          "count": 27
+        },
+        {
+          "product": "Body Lotion SPF",
+          "count": 26
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-00432",
+          "brand": "Bombay Shaving Co",
+          "product": "Sleep Aid Melatonin",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. confused about morning vs night. not suitable for sensitive skin. what percentage of active ingredient."
+        },
+        {
+          "review_id": "NREV-01608",
+          "brand": "Sugar Cosmetics",
+          "product": "Face Wash for Men",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "Mixed feelings. what percentage of active ingredient. dairy-free alternative needed."
+        },
+        {
+          "review_id": "NREV-02499",
+          "brand": "Mamaearth",
+          "product": "Charcoal Peel Mask",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Expected better. caused breakouts. no timeline mentioned on packaging. too much plastic packaging. want to know if it has parabens."
+        }
+      ]
+    },
+    {
+      "tag": "side_effect_concern",
+      "opportunity_score": 60.31,
+      "metrics": {
+        "frequency_pct": 9.51,
+        "normalized_frequency": 0.4216,
+        "avg_rating": 2.07,
+        "raw_severity": 2.93,
+        "normalized_severity": 0.8485,
+        "avg_helpful_votes": 50.03,
+        "normalized_validation": 0.5446
+      },
+      "mention_count": 551,
+      "top_affected_brands": [
+        {
+          "brand": "Mamaearth",
+          "count": 56
+        },
+        {
+          "brand": "Kapiva",
+          "count": 41
+        },
+        {
+          "brand": "MuscleBlaze",
+          "count": 41
+        },
+        {
+          "brand": "Beardo",
+          "count": 41
+        },
+        {
+          "brand": "mCaffeine",
+          "count": 38
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Sunscreen SPF50",
+          "count": 32
+        },
+        {
+          "product": "Under Eye Cream",
+          "count": 28
+        },
+        {
+          "product": "Multivitamin Gummies",
+          "count": 26
+        },
+        {
+          "product": "Keratin Mask",
+          "count": 26
+        },
+        {
+          "product": "Ashwagandha Tablets",
+          "count": 25
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-02499",
+          "brand": "Mamaearth",
+          "product": "Charcoal Peel Mask",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Expected better. caused breakouts. no timeline mentioned on packaging. too much plastic packaging. want to know if it has parabens."
+        },
+        {
+          "review_id": "NREV-05172",
+          "brand": "Plum",
+          "product": "Collagen Powder",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Not worth the money. need a routine builder. too bulky for carry-on. caused breakouts."
+        },
+        {
+          "review_id": "NREV-05337",
+          "brand": "MuscleBlaze",
+          "product": "Omega-3 Caps",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. skin became red and itchy. gluten-free claim questionable. need something for combination skin."
+        }
+      ]
+    },
+    {
+      "tag": "subscription_flexibility",
+      "opportunity_score": 59.79,
+      "metrics": {
+        "frequency_pct": 10.15,
+        "normalized_frequency": 0.7843,
+        "avg_rating": 2.17,
+        "raw_severity": 2.83,
+        "normalized_severity": 0.3209,
+        "avg_helpful_votes": 50.58,
+        "normalized_validation": 0.6829
+      },
+      "mention_count": 588,
+      "top_affected_brands": [
+        {
+          "brand": "Sugar Cosmetics",
+          "count": 56
+        },
+        {
+          "brand": "WOW Skin Science",
+          "count": 55
+        },
+        {
+          "brand": "MCaffeine",
+          "count": 52
+        },
+        {
+          "brand": "Kapiva",
+          "count": 50
+        },
+        {
+          "brand": "Bombay Shaving Co",
+          "count": 42
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Collagen Powder",
+          "count": 28
+        },
+        {
+          "product": "Green Tea Face Wash",
+          "count": 28
+        },
+        {
+          "product": "Ashwagandha Tablets",
+          "count": 28
+        },
+        {
+          "product": "Face Wash for Men",
+          "count": 27
+        },
+        {
+          "product": "Charcoal Peel Mask",
+          "count": 24
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-01404",
+          "brand": "Mamaearth",
+          "product": "Plant Protein Shake",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. want refill option. can't pause subscription easily. contains gelatin capsules. perfume gives me headache."
+        },
+        {
+          "review_id": "NREV-02783",
+          "brand": "mCaffeine",
+          "product": "Deodorant Spray",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. auto-renewal surprised me. want to know if it has parabens. not worth the premium price. will it react with my medication."
+        },
+        {
+          "review_id": "NREV-03434",
+          "brand": "mCaffeine",
+          "product": "Multivitamin Gummies",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "Average experience. need skip option."
+        }
+      ]
+    },
+    {
+      "tag": "combination_guidance",
+      "opportunity_score": 58.29,
+      "metrics": {
+        "frequency_pct": 9.35,
+        "normalized_frequency": 0.3333,
+        "avg_rating": 2.14,
+        "raw_severity": 2.86,
+        "normalized_severity": 0.479,
+        "avg_helpful_votes": 51.62,
+        "normalized_validation": 0.9441
+      },
+      "mention_count": 542,
+      "top_affected_brands": [
+        {
+          "brand": "The Derma Co",
+          "count": 49
+        },
+        {
+          "brand": "MuscleBlaze",
+          "count": 47
+        },
+        {
+          "brand": "Mamaearth",
+          "count": 43
+        },
+        {
+          "brand": "Sugar Cosmetics",
+          "count": 40
+        },
+        {
+          "brand": "Kapiva",
+          "count": 39
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Ashwagandha Tablets",
+          "count": 28
+        },
+        {
+          "product": "Vitamin C Serum",
+          "count": 26
+        },
+        {
+          "product": "Omega-3 Caps",
+          "count": 26
+        },
+        {
+          "product": "Probiotics Capsules",
+          "count": 25
+        },
+        {
+          "product": "Plant Protein Shake",
+          "count": 25
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-02783",
+          "brand": "mCaffeine",
+          "product": "Deodorant Spray",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. auto-renewal surprised me. want to know if it has parabens. not worth the premium price. will it react with my medication."
+        },
+        {
+          "review_id": "NREV-04334",
+          "brand": "Bombay Shaving Co",
+          "product": "Biotin Supplement",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Expected better. can I take it with other supplements. need a routine builder. is this vegan. not suitable for sensitive skin."
+        },
+        {
+          "review_id": "NREV-04350",
+          "brand": "Minimalist",
+          "product": "Face Wash for Men",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Expected better. one size doesn't fit all. will it react with my medication."
+        }
+      ]
+    },
+    {
+      "tag": "efficacy_timeline",
+      "opportunity_score": 56.46,
+      "metrics": {
+        "frequency_pct": 9.72,
+        "normalized_frequency": 0.5392,
+        "avg_rating": 2.17,
+        "raw_severity": 2.83,
+        "normalized_severity": 0.2989,
+        "avg_helpful_votes": 51.27,
+        "normalized_validation": 0.8566
+      },
+      "mention_count": 563,
+      "top_affected_brands": [
+        {
+          "brand": "MCaffeine",
+          "count": 50
+        },
+        {
+          "brand": "The Derma Co",
+          "count": 49
+        },
+        {
+          "brand": "Mamaearth",
+          "count": 47
+        },
+        {
+          "brand": "HealthKart",
+          "count": 43
+        },
+        {
+          "brand": "Minimalist",
+          "count": 41
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Collagen Powder",
+          "count": 25
+        },
+        {
+          "product": "Niacinamide Serum",
+          "count": 25
+        },
+        {
+          "product": "Body Lotion SPF",
+          "count": 24
+        },
+        {
+          "product": "Lip Balm Set",
+          "count": 24
+        },
+        {
+          "product": "Whey Protein Powder",
+          "count": 24
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-00389",
+          "brand": "MuscleBlaze",
+          "product": "Sunscreen SPF50",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "Average experience. no timeline mentioned on packaging."
+        },
+        {
+          "review_id": "NREV-01308",
+          "brand": "Mamaearth",
+          "product": "Sleep Aid Melatonin",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. expected faster results. want before/after comparison tool. need something for combination skin."
+        },
+        {
+          "review_id": "NREV-02399",
+          "brand": "Bombay Shaving Co",
+          "product": "Iron Supplement",
+          "rating": 4,
+          "helpful_votes": 100,
+          "review_text": "Works well, would recommend. expected faster results."
+        }
+      ]
+    },
+    {
+      "tag": "packaging_sustainability",
+      "opportunity_score": 56.23,
+      "metrics": {
+        "frequency_pct": 9.1,
+        "normalized_frequency": 0.1863,
+        "avg_rating": 2.05,
+        "raw_severity": 2.95,
+        "normalized_severity": 1,
+        "avg_helpful_votes": 49.9,
+        "normalized_validation": 0.512
+      },
+      "mention_count": 527,
+      "top_affected_brands": [
+        {
+          "brand": "Plum",
+          "count": 47
+        },
+        {
+          "brand": "HealthKart",
+          "count": 45
+        },
+        {
+          "brand": "Sugar Cosmetics",
+          "count": 41
+        },
+        {
+          "brand": "Bombay Shaving Co",
+          "count": 37
+        },
+        {
+          "brand": "Kapiva",
+          "count": 37
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Ashwagandha Tablets",
+          "count": 28
+        },
+        {
+          "product": "Charcoal Peel Mask",
+          "count": 27
+        },
+        {
+          "product": "Probiotics Capsules",
+          "count": 25
+        },
+        {
+          "product": "Retinol Night Cream",
+          "count": 23
+        },
+        {
+          "product": "Niacinamide Serum",
+          "count": 23
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-01404",
+          "brand": "Mamaearth",
+          "product": "Plant Protein Shake",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. want refill option. can't pause subscription easily. contains gelatin capsules. perfume gives me headache."
+        },
+        {
+          "review_id": "NREV-01651",
+          "brand": "Bombay Shaving Co",
+          "product": "Green Tea Face Wash",
+          "rating": 4,
+          "helpful_votes": 100,
+          "review_text": "Good quality product. not recyclable packaging."
+        },
+        {
+          "review_id": "NREV-01687",
+          "brand": "mCaffeine",
+          "product": "Hair Growth Oil",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "It's okay. want refill option. soy allergy not addressed."
+        }
+      ]
+    },
+    {
+      "tag": "result_tracking",
+      "opportunity_score": 55.75,
+      "metrics": {
+        "frequency_pct": 10.1,
+        "normalized_frequency": 0.7549,
+        "avg_rating": 2.2,
+        "raw_severity": 2.8,
+        "normalized_severity": 0.1528,
+        "avg_helpful_votes": 50.88,
+        "normalized_validation": 0.7587
+      },
+      "mention_count": 585,
+      "top_affected_brands": [
+        {
+          "brand": "The Derma Co",
+          "count": 57
+        },
+        {
+          "brand": "HealthKart",
+          "count": 47
+        },
+        {
+          "brand": "Minimalist",
+          "count": 45
+        },
+        {
+          "brand": "Kapiva",
+          "count": 43
+        },
+        {
+          "brand": "WOW Skin Science",
+          "count": 43
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Sleep Aid Melatonin",
+          "count": 31
+        },
+        {
+          "product": "Biotin Supplement",
+          "count": 28
+        },
+        {
+          "product": "Retinol Night Cream",
+          "count": 27
+        },
+        {
+          "product": "Omega-3 Caps",
+          "count": 26
+        },
+        {
+          "product": "Hair Growth Oil",
+          "count": 26
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-01308",
+          "brand": "Mamaearth",
+          "product": "Sleep Aid Melatonin",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. expected faster results. want before/after comparison tool. need something for combination skin."
+        },
+        {
+          "review_id": "NREV-02958",
+          "brand": "WOW Skin Science",
+          "product": "Lip Balm Set",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "Decent product. need to check if it's sulphate free. want before/after comparison tool."
+        },
+        {
+          "review_id": "NREV-03480",
+          "brand": "Plum",
+          "product": "Immunity Booster",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Not worth the money. how do I measure results."
+        }
+      ]
+    },
+    {
+      "tag": "allergen_labeling",
+      "opportunity_score": 52.9,
+      "metrics": {
+        "frequency_pct": 9.84,
+        "normalized_frequency": 0.6078,
+        "avg_rating": 2.14,
+        "raw_severity": 2.86,
+        "normalized_severity": 0.4782,
+        "avg_helpful_votes": 49.85,
+        "normalized_validation": 0.4985
+      },
+      "mention_count": 570,
+      "top_affected_brands": [
+        {
+          "brand": "Mamaearth",
+          "count": 49
+        },
+        {
+          "brand": "MCaffeine",
+          "count": 47
+        },
+        {
+          "brand": "The Derma Co",
+          "count": 46
+        },
+        {
+          "brand": "mCaffeine",
+          "count": 44
+        },
+        {
+          "brand": "Sugar Cosmetics",
+          "count": 40
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Under Eye Cream",
+          "count": 31
+        },
+        {
+          "product": "Keratin Mask",
+          "count": 31
+        },
+        {
+          "product": "Weight Loss Shake",
+          "count": 25
+        },
+        {
+          "product": "Sleep Aid Melatonin",
+          "count": 24
+        },
+        {
+          "product": "Multivitamin Gummies",
+          "count": 22
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-00307",
+          "brand": "Kapiva",
+          "product": "Iron Supplement",
+          "rating": 5,
+          "helpful_votes": 100,
+          "review_text": "Great product overall! dairy-free alternative needed."
+        },
+        {
+          "review_id": "NREV-01519",
+          "brand": "MuscleBlaze",
+          "product": "Weight Loss Shake",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "It's okay. no allergen info on label."
+        },
+        {
+          "review_id": "NREV-01608",
+          "brand": "Sugar Cosmetics",
+          "product": "Face Wash for Men",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "Mixed feelings. what percentage of active ingredient. dairy-free alternative needed."
+        }
+      ]
+    },
+    {
+      "tag": "dosage_confusion",
+      "opportunity_score": 47.81,
+      "metrics": {
+        "frequency_pct": 9.63,
+        "normalized_frequency": 0.4902,
+        "avg_rating": 2.16,
+        "raw_severity": 2.84,
+        "normalized_severity": 0.3506,
+        "avg_helpful_votes": 50.22,
+        "normalized_validation": 0.5931
+      },
+      "mention_count": 558,
+      "top_affected_brands": [
+        {
+          "brand": "MuscleBlaze",
+          "count": 51
+        },
+        {
+          "brand": "HealthKart",
+          "count": 45
+        },
+        {
+          "brand": "Beardo",
+          "count": 43
+        },
+        {
+          "brand": "Sugar Cosmetics",
+          "count": 42
+        },
+        {
+          "brand": "Bombay Shaving Co",
+          "count": 41
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Lip Balm Set",
+          "count": 32
+        },
+        {
+          "product": "Sleep Aid Melatonin",
+          "count": 25
+        },
+        {
+          "product": "Ashwagandha Tablets",
+          "count": 25
+        },
+        {
+          "product": "Collagen Powder",
+          "count": 25
+        },
+        {
+          "product": "Plant Protein Shake",
+          "count": 24
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-00432",
+          "brand": "Bombay Shaving Co",
+          "product": "Sleep Aid Melatonin",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. confused about morning vs night. not suitable for sensitive skin. what percentage of active ingredient."
+        },
+        {
+          "review_id": "NREV-04334",
+          "brand": "Bombay Shaving Co",
+          "product": "Biotin Supplement",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Expected better. can I take it with other supplements. need a routine builder. is this vegan. not suitable for sensitive skin."
+        },
+        {
+          "review_id": "NREV-00093",
+          "brand": "Pilgrim",
+          "product": "Hair Growth Oil",
+          "rating": 3,
+          "helpful_votes": 99,
+          "review_text": "Decent product. how many pumps to use. excessive wrapping."
+        }
+      ]
+    },
+    {
+      "tag": "price_value_mismatch",
+      "opportunity_score": 45.88,
+      "metrics": {
+        "frequency_pct": 9.86,
+        "normalized_frequency": 0.6176,
+        "avg_rating": 2.17,
+        "raw_severity": 2.83,
+        "normalized_severity": 0.3124,
+        "avg_helpful_votes": 49.62,
+        "normalized_validation": 0.4414
+      },
+      "mention_count": 571,
+      "top_affected_brands": [
+        {
+          "brand": "MuscleBlaze",
+          "count": 47
+        },
+        {
+          "brand": "Mamaearth",
+          "count": 46
+        },
+        {
+          "brand": "MCaffeine",
+          "count": 45
+        },
+        {
+          "brand": "Plum",
+          "count": 44
+        },
+        {
+          "brand": "The Derma Co",
+          "count": 43
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Green Tea Face Wash",
+          "count": 29
+        },
+        {
+          "product": "Ashwagandha Tablets",
+          "count": 25
+        },
+        {
+          "product": "Whey Protein Powder",
+          "count": 25
+        },
+        {
+          "product": "Probiotics Capsules",
+          "count": 25
+        },
+        {
+          "product": "Charcoal Peel Mask",
+          "count": 23
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-00915",
+          "brand": "Pilgrim",
+          "product": "Niacinamide Serum",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Expected better. fragrance is too strong. small bottle runs out fast."
+        },
+        {
+          "review_id": "NREV-02472",
+          "brand": "Pilgrim",
+          "product": "Plant Protein Shake",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. too expensive for the quantity. no allergen info on label."
+        },
+        {
+          "review_id": "NREV-02783",
+          "brand": "mCaffeine",
+          "product": "Deodorant Spray",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. auto-renewal surprised me. want to know if it has parabens. not worth the premium price. will it react with my medication."
+        }
+      ]
+    },
+    {
+      "tag": "personalization_demand",
+      "opportunity_score": 43.88,
+      "metrics": {
+        "frequency_pct": 10.32,
+        "normalized_frequency": 0.8824,
+        "avg_rating": 2.18,
+        "raw_severity": 2.82,
+        "normalized_severity": 0.2428,
+        "avg_helpful_votes": 48.57,
+        "normalized_validation": 0.1778
+      },
+      "mention_count": 598,
+      "top_affected_brands": [
+        {
+          "brand": "The Derma Co",
+          "count": 62
+        },
+        {
+          "brand": "Bombay Shaving Co",
+          "count": 49
+        },
+        {
+          "brand": "Plum",
+          "count": 45
+        },
+        {
+          "brand": "Beardo",
+          "count": 44
+        },
+        {
+          "brand": "MCaffeine",
+          "count": 44
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Multivitamin Gummies",
+          "count": 32
+        },
+        {
+          "product": "Probiotics Capsules",
+          "count": 27
+        },
+        {
+          "product": "Niacinamide Serum",
+          "count": 27
+        },
+        {
+          "product": "Immunity Booster",
+          "count": 27
+        },
+        {
+          "product": "Collagen Powder",
+          "count": 26
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-03264",
+          "brand": "Bombay Shaving Co",
+          "product": "Lip Balm Set",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. not customized for my needs. too heavy for my skin type."
+        },
+        {
+          "review_id": "NREV-04350",
+          "brand": "Minimalist",
+          "product": "Face Wash for Men",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Expected better. one size doesn't fit all. will it react with my medication."
+        },
+        {
+          "review_id": "NREV-05458",
+          "brand": "Bombay Shaving Co",
+          "product": "Multivitamin Gummies",
+          "rating": 3,
+          "helpful_votes": 100,
+          "review_text": "Decent product. price went up no improvement. one size doesn't fit all."
+        }
+      ]
+    },
+    {
+      "tag": "skin_type_mismatch",
+      "opportunity_score": 37.79,
+      "metrics": {
+        "frequency_pct": 10.11,
+        "normalized_frequency": 0.7647,
+        "avg_rating": 2.18,
+        "raw_severity": 2.82,
+        "normalized_severity": 0.2793,
+        "avg_helpful_votes": 48.17,
+        "normalized_validation": 0.0779
+      },
+      "mention_count": 586,
+      "top_affected_brands": [
+        {
+          "brand": "The Derma Co",
+          "count": 50
+        },
+        {
+          "brand": "Minimalist",
+          "count": 46
+        },
+        {
+          "brand": "Sugar Cosmetics",
+          "count": 45
+        },
+        {
+          "brand": "Mamaearth",
+          "count": 41
+        },
+        {
+          "brand": "Beardo",
+          "count": 40
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Biotin Supplement",
+          "count": 30
+        },
+        {
+          "product": "Charcoal Peel Mask",
+          "count": 29
+        },
+        {
+          "product": "Collagen Powder",
+          "count": 24
+        },
+        {
+          "product": "Hair Growth Oil",
+          "count": 24
+        },
+        {
+          "product": "Immunity Booster",
+          "count": 24
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-00432",
+          "brand": "Bombay Shaving Co",
+          "product": "Sleep Aid Melatonin",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. confused about morning vs night. not suitable for sensitive skin. what percentage of active ingredient."
+        },
+        {
+          "review_id": "NREV-01308",
+          "brand": "Mamaearth",
+          "product": "Sleep Aid Melatonin",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. expected faster results. want before/after comparison tool. need something for combination skin."
+        },
+        {
+          "review_id": "NREV-03264",
+          "brand": "Bombay Shaving Co",
+          "product": "Lip Balm Set",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. not customized for my needs. too heavy for my skin type."
+        }
+      ]
+    },
+    {
+      "tag": "fragrance_sensitivity",
+      "opportunity_score": 26.8,
+      "metrics": {
+        "frequency_pct": 9.34,
+        "normalized_frequency": 0.3235,
+        "avg_rating": 2.23,
+        "raw_severity": 2.77,
+        "normalized_severity": 0,
+        "avg_helpful_votes": 49.77,
+        "normalized_validation": 0.4788
+      },
+      "mention_count": 541,
+      "top_affected_brands": [
+        {
+          "brand": "MuscleBlaze",
+          "count": 46
+        },
+        {
+          "brand": "Mamaearth",
+          "count": 43
+        },
+        {
+          "brand": "Plum",
+          "count": 42
+        },
+        {
+          "brand": "mCaffeine",
+          "count": 42
+        },
+        {
+          "brand": "Bombay Shaving Co",
+          "count": 37
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Charcoal Peel Mask",
+          "count": 30
+        },
+        {
+          "product": "Weight Loss Shake",
+          "count": 28
+        },
+        {
+          "product": "Sleep Aid Melatonin",
+          "count": 27
+        },
+        {
+          "product": "Keratin Mask",
+          "count": 25
+        },
+        {
+          "product": "Sunscreen SPF50",
+          "count": 24
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-00915",
+          "brand": "Pilgrim",
+          "product": "Niacinamide Serum",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Expected better. fragrance is too strong. small bottle runs out fast."
+        },
+        {
+          "review_id": "NREV-01404",
+          "brand": "Mamaearth",
+          "product": "Plant Protein Shake",
+          "rating": 1,
+          "helpful_votes": 100,
+          "review_text": "Won't buy again. want refill option. can't pause subscription easily. contains gelatin capsules. perfume gives me headache."
+        },
+        {
+          "review_id": "NREV-02345",
+          "brand": "Plum",
+          "product": "Anti-Hairfall Shampoo",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Not worth the money. artificial smell puts me off. want refill option."
+        }
+      ]
+    },
+    {
+      "tag": "travel_size_demand",
+      "opportunity_score": 14.07,
+      "metrics": {
+        "frequency_pct": 8.77,
+        "normalized_frequency": 0,
+        "avg_rating": 2.15,
+        "raw_severity": 2.85,
+        "normalized_severity": 0.4262,
+        "avg_helpful_votes": 47.86,
+        "normalized_validation": 0
+      },
+      "mention_count": 508,
+      "top_affected_brands": [
+        {
+          "brand": "HealthKart",
+          "count": 39
+        },
+        {
+          "brand": "Plum",
+          "count": 39
+        },
+        {
+          "brand": "Minimalist",
+          "count": 37
+        },
+        {
+          "brand": "Oziva",
+          "count": 37
+        },
+        {
+          "brand": "The Derma Co",
+          "count": 37
+        }
+      ],
+      "top_affected_products": [
+        {
+          "product": "Keratin Mask",
+          "count": 26
+        },
+        {
+          "product": "Vitamin C Serum",
+          "count": 25
+        },
+        {
+          "product": "Omega-3 Caps",
+          "count": 25
+        },
+        {
+          "product": "Under Eye Cream",
+          "count": 24
+        },
+        {
+          "product": "Iron Supplement",
+          "count": 23
+        }
+      ],
+      "representative_reviews": [
+        {
+          "review_id": "NREV-01965",
+          "brand": "HealthKart",
+          "product": "Whey Protein Powder",
+          "rating": 2,
+          "helpful_votes": 100,
+          "review_text": "Disappointed. is this vegan. too bulky for carry-on. want refill option."
+        },
+        {
+          "review_id": "NREV-03815",
+          "brand": "MuscleBlaze",
+          "product": "Iron Supplement",
+          "rating": 4,
+          "helpful_votes": 100,
+          "review_text": "Really happy with results. can't carry liquids while traveling."
+        },
+        {
+          "review_id": "NREV-04954",
+          "brand": "Plum",
+          "product": "Weight Loss Shake",
+          "rating": 4,
+          "helpful_votes": 100,
+          "review_text": "Good quality product. mini version would be great."
+        }
+      ]
+    }
+  ]
+}
