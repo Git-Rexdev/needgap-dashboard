@@ -2,7 +2,12 @@
   "summary_metrics": {
     "average_frequency_pct": 9.75,
     "average_rating": 2.14,
-    "average_helpful_votes": 49.99
+    "average_helpful_votes": 49.99,
+    "total_brands": 15,
+    "total_categories": 8,
+    "total_products": 28,
+    "total_platforms": 4,
+    "verified_purchase_pct": 85.36
   },
   "rare_but_severe_needs": [
     {
@@ -157,12 +162,2071 @@
       "plain_english_note": "High rating (2.15) and low community validation (47.86 votes). Deprioritize for R&D focus."
     }
   ],
+  "category_analysis": [
+    {
+      "category": "Hair Care",
+      "total_reviews": 766,
+      "avg_rating": 2.955613577023499,
+      "top_3_needs": [
+        {
+          "tag": "subscription_flexibility",
+          "count": 90
+        },
+        {
+          "tag": "side_effect_concern",
+          "count": 90
+        },
+        {
+          "tag": "ingredient_transparency",
+          "count": 87
+        }
+      ],
+      "plain_english_note": "In Hair Care (avg rating 2.96), the top complaints are subscription_flexibility, side_effect_concern, ingredient_transparency."
+    },
+    {
+      "category": "Men's Grooming",
+      "total_reviews": 778,
+      "avg_rating": 2.956298200514139,
+      "top_3_needs": [
+        {
+          "tag": "personalization_demand",
+          "count": 93
+        },
+        {
+          "tag": "dosage_confusion",
+          "count": 84
+        },
+        {
+          "tag": "ingredient_transparency",
+          "count": 80
+        }
+      ],
+      "plain_english_note": "In Men's Grooming (avg rating 2.96), the top complaints are personalization_demand, dosage_confusion, ingredient_transparency."
+    },
+    {
+      "category": "Skin Care",
+      "total_reviews": 1542,
+      "avg_rating": 2.956549935149157,
+      "top_3_needs": [
+        {
+          "tag": "result_tracking",
+          "count": 176
+        },
+        {
+          "tag": "personalization_demand",
+          "count": 172
+        },
+        {
+          "tag": "skin_type_mismatch",
+          "count": 169
+        }
+      ],
+      "plain_english_note": "In Skin Care (avg rating 2.96), the top complaints are result_tracking, personalization_demand, skin_type_mismatch."
+    },
+    {
+      "category": "Beauty",
+      "total_reviews": 415,
+      "avg_rating": 2.927710843373494,
+      "top_3_needs": [
+        {
+          "tag": "subscription_flexibility",
+          "count": 56
+        },
+        {
+          "tag": "vegan_certification",
+          "count": 46
+        },
+        {
+          "tag": "skin_type_mismatch",
+          "count": 45
+        }
+      ],
+      "plain_english_note": "In Beauty (avg rating 2.93), the top complaints are subscription_flexibility, vegan_certification, skin_type_mismatch."
+    },
+    {
+      "category": "Supplements",
+      "total_reviews": 783,
+      "avg_rating": 2.983397190293742,
+      "top_3_needs": [
+        {
+          "tag": "dosage_confusion",
+          "count": 96
+        },
+        {
+          "tag": "ingredient_transparency",
+          "count": 86
+        },
+        {
+          "tag": "result_tracking",
+          "count": 84
+        }
+      ],
+      "plain_english_note": "In Supplements (avg rating 2.98), the top complaints are dosage_confusion, ingredient_transparency, result_tracking."
+    },
+    {
+      "category": "Body Care",
+      "total_reviews": 364,
+      "avg_rating": 2.9642857142857144,
+      "top_3_needs": [
+        {
+          "tag": "allergen_labeling",
+          "count": 44
+        },
+        {
+          "tag": "fragrance_sensitivity",
+          "count": 42
+        },
+        {
+          "tag": "price_value_mismatch",
+          "count": 39
+        }
+      ],
+      "plain_english_note": "In Body Care (avg rating 2.96), the top complaints are allergen_labeling, fragrance_sensitivity, price_value_mismatch."
+    },
+    {
+      "category": "Wellness",
+      "total_reviews": 753,
+      "avg_rating": 2.907038512616202,
+      "top_3_needs": [
+        {
+          "tag": "ingredient_transparency",
+          "count": 86
+        },
+        {
+          "tag": "subscription_flexibility",
+          "count": 83
+        },
+        {
+          "tag": "skin_type_mismatch",
+          "count": 80
+        }
+      ],
+      "plain_english_note": "In Wellness (avg rating 2.91), the top complaints are ingredient_transparency, subscription_flexibility, skin_type_mismatch."
+    },
+    {
+      "category": "Personal Care",
+      "total_reviews": 393,
+      "avg_rating": 2.921119592875318,
+      "top_3_needs": [
+        {
+          "tag": "vegan_certification",
+          "count": 53
+        },
+        {
+          "tag": "subscription_flexibility",
+          "count": 52
+        },
+        {
+          "tag": "efficacy_timeline",
+          "count": 50
+        }
+      ],
+      "plain_english_note": "In Personal Care (avg rating 2.92), the top complaints are vegan_certification, subscription_flexibility, efficacy_timeline."
+    }
+  ],
+  "co_occurrence_matrix": [
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "personalization_demand",
+      "co_occurrence_count": 78,
+      "co_occurrence_pct": 1.3462202278218847
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 78,
+      "co_occurrence_pct": 1.3462202278218847
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "ingredient_transparency",
+      "co_occurrence_count": 77,
+      "co_occurrence_pct": 1.3289609941318605
+    },
+    {
+      "tag_a": "personalization_demand",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 77,
+      "co_occurrence_pct": 1.3289609941318605
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "personalization_demand",
+      "co_occurrence_count": 77,
+      "co_occurrence_pct": 1.3289609941318605
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 76,
+      "co_occurrence_pct": 1.3117017604418364
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 74,
+      "co_occurrence_pct": 1.277183293061788
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 74,
+      "co_occurrence_pct": 1.277183293061788
+    },
+    {
+      "tag_a": "price_value_mismatch",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 73,
+      "co_occurrence_pct": 1.2599240593717638
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 73,
+      "co_occurrence_pct": 1.2599240593717638
+    },
+    {
+      "tag_a": "result_tracking",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 72,
+      "co_occurrence_pct": 1.2426648256817396
+    },
+    {
+      "tag_a": "skin_type_mismatch",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 72,
+      "co_occurrence_pct": 1.2426648256817396
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "personalization_demand",
+      "co_occurrence_count": 71,
+      "co_occurrence_pct": 1.2254055919917155
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 71,
+      "co_occurrence_pct": 1.2254055919917155
+    },
+    {
+      "tag_a": "personalization_demand",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 71,
+      "co_occurrence_pct": 1.2254055919917155
+    },
+    {
+      "tag_a": "subscription_flexibility",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 71,
+      "co_occurrence_pct": 1.2254055919917155
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 71,
+      "co_occurrence_pct": 1.2254055919917155
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 70,
+      "co_occurrence_pct": 1.2081463583016916
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "price_value_mismatch",
+      "co_occurrence_count": 70,
+      "co_occurrence_pct": 1.2081463583016916
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "ingredient_transparency",
+      "co_occurrence_count": 70,
+      "co_occurrence_pct": 1.2081463583016916
+    },
+    {
+      "tag_a": "result_tracking",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 69,
+      "co_occurrence_pct": 1.1908871246116672
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "personalization_demand",
+      "co_occurrence_count": 69,
+      "co_occurrence_pct": 1.1908871246116672
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 69,
+      "co_occurrence_pct": 1.1908871246116672
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 68,
+      "co_occurrence_pct": 1.173627890921643
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 68,
+      "co_occurrence_pct": 1.173627890921643
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "dosage_confusion",
+      "co_occurrence_count": 68,
+      "co_occurrence_pct": 1.173627890921643
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 67,
+      "co_occurrence_pct": 1.156368657231619
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 67,
+      "co_occurrence_pct": 1.156368657231619
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 67,
+      "co_occurrence_pct": 1.156368657231619
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 67,
+      "co_occurrence_pct": 1.156368657231619
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 66,
+      "co_occurrence_pct": 1.1391094235415948
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "ingredient_transparency",
+      "co_occurrence_count": 66,
+      "co_occurrence_pct": 1.1391094235415948
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 66,
+      "co_occurrence_pct": 1.1391094235415948
+    },
+    {
+      "tag_a": "personalization_demand",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 66,
+      "co_occurrence_pct": 1.1391094235415948
+    },
+    {
+      "tag_a": "personalization_demand",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 66,
+      "co_occurrence_pct": 1.1391094235415948
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 66,
+      "co_occurrence_pct": 1.1391094235415948
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "packaging_sustainability",
+      "co_occurrence_count": 65,
+      "co_occurrence_pct": 1.1218501898515705
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 65,
+      "co_occurrence_pct": 1.1218501898515705
+    },
+    {
+      "tag_a": "personalization_demand",
+      "tag_b": "price_value_mismatch",
+      "co_occurrence_count": 65,
+      "co_occurrence_pct": 1.1218501898515705
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "packaging_sustainability",
+      "co_occurrence_count": 65,
+      "co_occurrence_pct": 1.1218501898515705
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 65,
+      "co_occurrence_pct": 1.1218501898515705
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "price_value_mismatch",
+      "co_occurrence_count": 64,
+      "co_occurrence_pct": 1.1045909561615463
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 64,
+      "co_occurrence_pct": 1.1045909561615463
+    },
+    {
+      "tag_a": "price_value_mismatch",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 64,
+      "co_occurrence_pct": 1.1045909561615463
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 64,
+      "co_occurrence_pct": 1.1045909561615463
+    },
+    {
+      "tag_a": "price_value_mismatch",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 63,
+      "co_occurrence_pct": 1.0873317224715222
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "ingredient_transparency",
+      "co_occurrence_count": 63,
+      "co_occurrence_pct": 1.0873317224715222
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "price_value_mismatch",
+      "co_occurrence_count": 63,
+      "co_occurrence_pct": 1.0873317224715222
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "ingredient_transparency",
+      "co_occurrence_count": 63,
+      "co_occurrence_pct": 1.0873317224715222
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "efficacy_timeline",
+      "co_occurrence_count": 63,
+      "co_occurrence_pct": 1.0873317224715222
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 62,
+      "co_occurrence_pct": 1.070072488781498
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 62,
+      "co_occurrence_pct": 1.070072488781498
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 62,
+      "co_occurrence_pct": 1.070072488781498
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "efficacy_timeline",
+      "co_occurrence_count": 62,
+      "co_occurrence_pct": 1.070072488781498
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "combination_guidance",
+      "co_occurrence_count": 61,
+      "co_occurrence_pct": 1.052813255091474
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "personalization_demand",
+      "co_occurrence_count": 61,
+      "co_occurrence_pct": 1.052813255091474
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "price_value_mismatch",
+      "co_occurrence_count": 61,
+      "co_occurrence_pct": 1.052813255091474
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "price_value_mismatch",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "result_tracking",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "packaging_sustainability",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "personalization_demand",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "packaging_sustainability",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "side_effect_concern",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "fragrance_sensitivity",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 60,
+      "co_occurrence_pct": 1.0355540214014498
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "dosage_confusion",
+      "co_occurrence_count": 59,
+      "co_occurrence_pct": 1.0182947877114257
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 59,
+      "co_occurrence_pct": 1.0182947877114257
+    },
+    {
+      "tag_a": "price_value_mismatch",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 59,
+      "co_occurrence_pct": 1.0182947877114257
+    },
+    {
+      "tag_a": "skin_type_mismatch",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 58,
+      "co_occurrence_pct": 1.0010355540214015
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "subscription_flexibility",
+      "co_occurrence_count": 58,
+      "co_occurrence_pct": 1.0010355540214015
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "personalization_demand",
+      "co_occurrence_count": 58,
+      "co_occurrence_pct": 1.0010355540214015
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 58,
+      "co_occurrence_pct": 1.0010355540214015
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "efficacy_timeline",
+      "co_occurrence_count": 58,
+      "co_occurrence_pct": 1.0010355540214015
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 58,
+      "co_occurrence_pct": 1.0010355540214015
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 57,
+      "co_occurrence_pct": 0.9837763203313773
+    },
+    {
+      "tag_a": "side_effect_concern",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 57,
+      "co_occurrence_pct": 0.9837763203313773
+    },
+    {
+      "tag_a": "side_effect_concern",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 57,
+      "co_occurrence_pct": 0.9837763203313773
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 57,
+      "co_occurrence_pct": 0.9837763203313773
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "fragrance_sensitivity",
+      "co_occurrence_count": 57,
+      "co_occurrence_pct": 0.9837763203313773
+    },
+    {
+      "tag_a": "packaging_sustainability",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 56,
+      "co_occurrence_pct": 0.9665170866413532
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "price_value_mismatch",
+      "co_occurrence_count": 56,
+      "co_occurrence_pct": 0.9665170866413532
+    },
+    {
+      "tag_a": "ingredient_transparency",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 55,
+      "co_occurrence_pct": 0.9492578529513289
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 55,
+      "co_occurrence_pct": 0.9492578529513289
+    },
+    {
+      "tag_a": "price_value_mismatch",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 55,
+      "co_occurrence_pct": 0.9492578529513289
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 55,
+      "co_occurrence_pct": 0.9492578529513289
+    },
+    {
+      "tag_a": "skin_type_mismatch",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 54,
+      "co_occurrence_pct": 0.9319986192613048
+    },
+    {
+      "tag_a": "efficacy_timeline",
+      "tag_b": "fragrance_sensitivity",
+      "co_occurrence_count": 54,
+      "co_occurrence_pct": 0.9319986192613048
+    },
+    {
+      "tag_a": "combination_guidance",
+      "tag_b": "vegan_certification",
+      "co_occurrence_count": 53,
+      "co_occurrence_pct": 0.9147393855712806
+    },
+    {
+      "tag_a": "allergen_labeling",
+      "tag_b": "fragrance_sensitivity",
+      "co_occurrence_count": 53,
+      "co_occurrence_pct": 0.9147393855712806
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "result_tracking",
+      "co_occurrence_count": 53,
+      "co_occurrence_pct": 0.9147393855712806
+    },
+    {
+      "tag_a": "dosage_confusion",
+      "tag_b": "personalization_demand",
+      "co_occurrence_count": 53,
+      "co_occurrence_pct": 0.9147393855712806
+    },
+    {
+      "tag_a": "result_tracking",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 52,
+      "co_occurrence_pct": 0.8974801518812565
+    },
+    {
+      "tag_a": "result_tracking",
+      "tag_b": "side_effect_concern",
+      "co_occurrence_count": 51,
+      "co_occurrence_pct": 0.8802209181912324
+    },
+    {
+      "tag_a": "fragrance_sensitivity",
+      "tag_b": "skin_type_mismatch",
+      "co_occurrence_count": 51,
+      "co_occurrence_pct": 0.8802209181912324
+    },
+    {
+      "tag_a": "subscription_flexibility",
+      "tag_b": "travel_size_demand",
+      "co_occurrence_count": 51,
+      "co_occurrence_pct": 0.8802209181912324
+    }
+  ],
+  "brand_need_heatmap": [
+    {
+      "brand": "The Derma Co",
+      "total_reviews": 434,
+      "needs": {
+        "travel_size_demand": {
+          "count": 37,
+          "pct": 8.525345622119817
+        },
+        "fragrance_sensitivity": {
+          "count": 31,
+          "pct": 7.142857142857142
+        },
+        "price_value_mismatch": {
+          "count": 43,
+          "pct": 9.90783410138249
+        },
+        "packaging_sustainability": {
+          "count": 36,
+          "pct": 8.294930875576037
+        },
+        "subscription_flexibility": {
+          "count": 40,
+          "pct": 9.216589861751153
+        },
+        "combination_guidance": {
+          "count": 49,
+          "pct": 11.29032258064516
+        },
+        "ingredient_transparency": {
+          "count": 47,
+          "pct": 10.829493087557603
+        },
+        "allergen_labeling": {
+          "count": 46,
+          "pct": 10.599078341013826
+        },
+        "result_tracking": {
+          "count": 57,
+          "pct": 13.13364055299539
+        },
+        "vegan_certification": {
+          "count": 44,
+          "pct": 10.138248847926267
+        },
+        "skin_type_mismatch": {
+          "count": 50,
+          "pct": 11.52073732718894
+        },
+        "efficacy_timeline": {
+          "count": 49,
+          "pct": 11.29032258064516
+        },
+        "side_effect_concern": {
+          "count": 34,
+          "pct": 7.834101382488479
+        },
+        "personalization_demand": {
+          "count": 62,
+          "pct": 14.285714285714285
+        },
+        "dosage_confusion": {
+          "count": 31,
+          "pct": 7.142857142857142
+        }
+      }
+    },
+    {
+      "brand": "Sugar Cosmetics",
+      "total_reviews": 415,
+      "needs": {
+        "combination_guidance": {
+          "count": 40,
+          "pct": 9.63855421686747
+        },
+        "skin_type_mismatch": {
+          "count": 45,
+          "pct": 10.843373493975903
+        },
+        "ingredient_transparency": {
+          "count": 42,
+          "pct": 10.120481927710843
+        },
+        "fragrance_sensitivity": {
+          "count": 32,
+          "pct": 7.710843373493977
+        },
+        "vegan_certification": {
+          "count": 46,
+          "pct": 11.08433734939759
+        },
+        "dosage_confusion": {
+          "count": 42,
+          "pct": 10.120481927710843
+        },
+        "packaging_sustainability": {
+          "count": 41,
+          "pct": 9.879518072289157
+        },
+        "result_tracking": {
+          "count": 43,
+          "pct": 10.361445783132531
+        },
+        "travel_size_demand": {
+          "count": 30,
+          "pct": 7.228915662650602
+        },
+        "price_value_mismatch": {
+          "count": 36,
+          "pct": 8.674698795180722
+        },
+        "side_effect_concern": {
+          "count": 34,
+          "pct": 8.19277108433735
+        },
+        "efficacy_timeline": {
+          "count": 28,
+          "pct": 6.746987951807229
+        },
+        "personalization_demand": {
+          "count": 40,
+          "pct": 9.63855421686747
+        },
+        "subscription_flexibility": {
+          "count": 56,
+          "pct": 13.493975903614459
+        },
+        "allergen_labeling": {
+          "count": 40,
+          "pct": 9.63855421686747
+        }
+      }
+    },
+    {
+      "brand": "Mamaearth",
+      "total_reviews": 400,
+      "needs": {
+        "personalization_demand": {
+          "count": 42,
+          "pct": 10.5
+        },
+        "allergen_labeling": {
+          "count": 49,
+          "pct": 12.25
+        },
+        "subscription_flexibility": {
+          "count": 35,
+          "pct": 8.75
+        },
+        "combination_guidance": {
+          "count": 43,
+          "pct": 10.75
+        },
+        "ingredient_transparency": {
+          "count": 43,
+          "pct": 10.75
+        },
+        "skin_type_mismatch": {
+          "count": 41,
+          "pct": 10.25
+        },
+        "fragrance_sensitivity": {
+          "count": 43,
+          "pct": 10.75
+        },
+        "travel_size_demand": {
+          "count": 35,
+          "pct": 8.75
+        },
+        "dosage_confusion": {
+          "count": 40,
+          "pct": 10
+        },
+        "vegan_certification": {
+          "count": 43,
+          "pct": 10.75
+        },
+        "price_value_mismatch": {
+          "count": 46,
+          "pct": 11.5
+        },
+        "packaging_sustainability": {
+          "count": 36,
+          "pct": 9
+        },
+        "efficacy_timeline": {
+          "count": 47,
+          "pct": 11.75
+        },
+        "side_effect_concern": {
+          "count": 56,
+          "pct": 14.000000000000002
+        },
+        "result_tracking": {
+          "count": 28,
+          "pct": 7.000000000000001
+        }
+      }
+    },
+    {
+      "brand": "HealthKart",
+      "total_reviews": 398,
+      "needs": {
+        "packaging_sustainability": {
+          "count": 45,
+          "pct": 11.306532663316583
+        },
+        "price_value_mismatch": {
+          "count": 31,
+          "pct": 7.788944723618091
+        },
+        "skin_type_mismatch": {
+          "count": 39,
+          "pct": 9.798994974874372
+        },
+        "vegan_certification": {
+          "count": 33,
+          "pct": 8.291457286432161
+        },
+        "side_effect_concern": {
+          "count": 33,
+          "pct": 8.291457286432161
+        },
+        "ingredient_transparency": {
+          "count": 45,
+          "pct": 11.306532663316583
+        },
+        "efficacy_timeline": {
+          "count": 43,
+          "pct": 10.804020100502512
+        },
+        "fragrance_sensitivity": {
+          "count": 34,
+          "pct": 8.542713567839195
+        },
+        "personalization_demand": {
+          "count": 37,
+          "pct": 9.296482412060302
+        },
+        "result_tracking": {
+          "count": 47,
+          "pct": 11.809045226130653
+        },
+        "travel_size_demand": {
+          "count": 39,
+          "pct": 9.798994974874372
+        },
+        "dosage_confusion": {
+          "count": 45,
+          "pct": 11.306532663316583
+        },
+        "combination_guidance": {
+          "count": 26,
+          "pct": 6.532663316582915
+        },
+        "subscription_flexibility": {
+          "count": 32,
+          "pct": 8.040201005025125
+        },
+        "allergen_labeling": {
+          "count": 32,
+          "pct": 8.040201005025125
+        }
+      }
+    },
+    {
+      "brand": "MCaffeine",
+      "total_reviews": 393,
+      "needs": {
+        "fragrance_sensitivity": {
+          "count": 36,
+          "pct": 9.16030534351145
+        },
+        "packaging_sustainability": {
+          "count": 31,
+          "pct": 7.888040712468193
+        },
+        "vegan_certification": {
+          "count": 53,
+          "pct": 13.486005089058525
+        },
+        "efficacy_timeline": {
+          "count": 50,
+          "pct": 12.72264631043257
+        },
+        "combination_guidance": {
+          "count": 37,
+          "pct": 9.414758269720101
+        },
+        "side_effect_concern": {
+          "count": 33,
+          "pct": 8.396946564885496
+        },
+        "subscription_flexibility": {
+          "count": 52,
+          "pct": 13.231552162849871
+        },
+        "price_value_mismatch": {
+          "count": 45,
+          "pct": 11.450381679389313
+        },
+        "skin_type_mismatch": {
+          "count": 36,
+          "pct": 9.16030534351145
+        },
+        "travel_size_demand": {
+          "count": 34,
+          "pct": 8.651399491094146
+        },
+        "personalization_demand": {
+          "count": 44,
+          "pct": 11.195928753180661
+        },
+        "result_tracking": {
+          "count": 32,
+          "pct": 8.142493638676845
+        },
+        "ingredient_transparency": {
+          "count": 41,
+          "pct": 10.432569974554708
+        },
+        "allergen_labeling": {
+          "count": 47,
+          "pct": 11.959287531806616
+        },
+        "dosage_confusion": {
+          "count": 28,
+          "pct": 7.124681933842239
+        }
+      }
+    },
+    {
+      "brand": "Bombay Shaving Co",
+      "total_reviews": 391,
+      "needs": {
+        "allergen_labeling": {
+          "count": 39,
+          "pct": 9.974424552429667
+        },
+        "fragrance_sensitivity": {
+          "count": 37,
+          "pct": 9.462915601023019
+        },
+        "efficacy_timeline": {
+          "count": 36,
+          "pct": 9.207161125319693
+        },
+        "side_effect_concern": {
+          "count": 32,
+          "pct": 8.184143222506394
+        },
+        "personalization_demand": {
+          "count": 49,
+          "pct": 12.531969309462914
+        },
+        "dosage_confusion": {
+          "count": 41,
+          "pct": 10.485933503836318
+        },
+        "ingredient_transparency": {
+          "count": 45,
+          "pct": 11.508951406649617
+        },
+        "travel_size_demand": {
+          "count": 33,
+          "pct": 8.439897698209718
+        },
+        "vegan_certification": {
+          "count": 36,
+          "pct": 9.207161125319693
+        },
+        "subscription_flexibility": {
+          "count": 42,
+          "pct": 10.741687979539643
+        },
+        "skin_type_mismatch": {
+          "count": 32,
+          "pct": 8.184143222506394
+        },
+        "price_value_mismatch": {
+          "count": 31,
+          "pct": 7.928388746803069
+        },
+        "packaging_sustainability": {
+          "count": 37,
+          "pct": 9.462915601023019
+        },
+        "result_tracking": {
+          "count": 36,
+          "pct": 9.207161125319693
+        },
+        "combination_guidance": {
+          "count": 27,
+          "pct": 6.905370843989769
+        }
+      }
+    },
+    {
+      "brand": "Beardo",
+      "total_reviews": 387,
+      "needs": {
+        "combination_guidance": {
+          "count": 33,
+          "pct": 8.527131782945736
+        },
+        "result_tracking": {
+          "count": 29,
+          "pct": 7.493540051679587
+        },
+        "vegan_certification": {
+          "count": 42,
+          "pct": 10.852713178294573
+        },
+        "travel_size_demand": {
+          "count": 28,
+          "pct": 7.235142118863049
+        },
+        "skin_type_mismatch": {
+          "count": 40,
+          "pct": 10.335917312661499
+        },
+        "personalization_demand": {
+          "count": 44,
+          "pct": 11.369509043927648
+        },
+        "price_value_mismatch": {
+          "count": 39,
+          "pct": 10.077519379844961
+        },
+        "dosage_confusion": {
+          "count": 43,
+          "pct": 11.11111111111111
+        },
+        "fragrance_sensitivity": {
+          "count": 37,
+          "pct": 9.560723514211885
+        },
+        "packaging_sustainability": {
+          "count": 34,
+          "pct": 8.785529715762273
+        },
+        "allergen_labeling": {
+          "count": 31,
+          "pct": 8.010335917312661
+        },
+        "side_effect_concern": {
+          "count": 41,
+          "pct": 10.594315245478036
+        },
+        "ingredient_transparency": {
+          "count": 35,
+          "pct": 9.043927648578812
+        },
+        "subscription_flexibility": {
+          "count": 27,
+          "pct": 6.976744186046512
+        },
+        "efficacy_timeline": {
+          "count": 37,
+          "pct": 9.560723514211885
+        }
+      }
+    },
+    {
+      "brand": "Plum",
+      "total_reviews": 387,
+      "needs": {
+        "allergen_labeling": {
+          "count": 37,
+          "pct": 9.560723514211885
+        },
+        "packaging_sustainability": {
+          "count": 47,
+          "pct": 12.144702842377262
+        },
+        "skin_type_mismatch": {
+          "count": 36,
+          "pct": 9.30232558139535
+        },
+        "personalization_demand": {
+          "count": 45,
+          "pct": 11.627906976744185
+        },
+        "subscription_flexibility": {
+          "count": 31,
+          "pct": 8.010335917312661
+        },
+        "combination_guidance": {
+          "count": 39,
+          "pct": 10.077519379844961
+        },
+        "price_value_mismatch": {
+          "count": 44,
+          "pct": 11.369509043927648
+        },
+        "vegan_certification": {
+          "count": 34,
+          "pct": 8.785529715762273
+        },
+        "result_tracking": {
+          "count": 39,
+          "pct": 10.077519379844961
+        },
+        "travel_size_demand": {
+          "count": 39,
+          "pct": 10.077519379844961
+        },
+        "fragrance_sensitivity": {
+          "count": 42,
+          "pct": 10.852713178294573
+        },
+        "ingredient_transparency": {
+          "count": 39,
+          "pct": 10.077519379844961
+        },
+        "side_effect_concern": {
+          "count": 38,
+          "pct": 9.819121447028424
+        },
+        "efficacy_timeline": {
+          "count": 39,
+          "pct": 10.077519379844961
+        },
+        "dosage_confusion": {
+          "count": 29,
+          "pct": 7.493540051679587
+        }
+      }
+    },
+    {
+      "brand": "MuscleBlaze",
+      "total_reviews": 385,
+      "needs": {
+        "allergen_labeling": {
+          "count": 28,
+          "pct": 7.2727272727272725
+        },
+        "travel_size_demand": {
+          "count": 36,
+          "pct": 9.35064935064935
+        },
+        "personalization_demand": {
+          "count": 32,
+          "pct": 8.311688311688311
+        },
+        "skin_type_mismatch": {
+          "count": 36,
+          "pct": 9.35064935064935
+        },
+        "side_effect_concern": {
+          "count": 41,
+          "pct": 10.649350649350648
+        },
+        "dosage_confusion": {
+          "count": 51,
+          "pct": 13.246753246753245
+        },
+        "subscription_flexibility": {
+          "count": 41,
+          "pct": 10.649350649350648
+        },
+        "packaging_sustainability": {
+          "count": 28,
+          "pct": 7.2727272727272725
+        },
+        "vegan_certification": {
+          "count": 43,
+          "pct": 11.168831168831169
+        },
+        "result_tracking": {
+          "count": 37,
+          "pct": 9.61038961038961
+        },
+        "fragrance_sensitivity": {
+          "count": 46,
+          "pct": 11.948051948051948
+        },
+        "ingredient_transparency": {
+          "count": 41,
+          "pct": 10.649350649350648
+        },
+        "combination_guidance": {
+          "count": 47,
+          "pct": 12.207792207792208
+        },
+        "price_value_mismatch": {
+          "count": 47,
+          "pct": 12.207792207792208
+        },
+        "efficacy_timeline": {
+          "count": 29,
+          "pct": 7.532467532467532
+        }
+      }
+    },
+    {
+      "brand": "Kapiva",
+      "total_reviews": 381,
+      "needs": {
+        "combination_guidance": {
+          "count": 39,
+          "pct": 10.236220472440944
+        },
+        "efficacy_timeline": {
+          "count": 33,
+          "pct": 8.661417322834646
+        },
+        "side_effect_concern": {
+          "count": 41,
+          "pct": 10.761154855643044
+        },
+        "result_tracking": {
+          "count": 43,
+          "pct": 11.286089238845145
+        },
+        "price_value_mismatch": {
+          "count": 36,
+          "pct": 9.448818897637794
+        },
+        "travel_size_demand": {
+          "count": 30,
+          "pct": 7.874015748031496
+        },
+        "vegan_certification": {
+          "count": 37,
+          "pct": 9.711286089238845
+        },
+        "personalization_demand": {
+          "count": 36,
+          "pct": 9.448818897637794
+        },
+        "subscription_flexibility": {
+          "count": 50,
+          "pct": 13.123359580052494
+        },
+        "ingredient_transparency": {
+          "count": 47,
+          "pct": 12.335958005249344
+        },
+        "skin_type_mismatch": {
+          "count": 40,
+          "pct": 10.498687664041995
+        },
+        "allergen_labeling": {
+          "count": 36,
+          "pct": 9.448818897637794
+        },
+        "fragrance_sensitivity": {
+          "count": 29,
+          "pct": 7.611548556430446
+        },
+        "dosage_confusion": {
+          "count": 29,
+          "pct": 7.611548556430446
+        },
+        "packaging_sustainability": {
+          "count": 37,
+          "pct": 9.711286089238845
+        }
+      }
+    },
+    {
+      "brand": "Oziva",
+      "total_reviews": 372,
+      "needs": {
+        "travel_size_demand": {
+          "count": 37,
+          "pct": 9.946236559139784
+        },
+        "ingredient_transparency": {
+          "count": 39,
+          "pct": 10.483870967741936
+        },
+        "allergen_labeling": {
+          "count": 34,
+          "pct": 9.13978494623656
+        },
+        "personalization_demand": {
+          "count": 32,
+          "pct": 8.60215053763441
+        },
+        "packaging_sustainability": {
+          "count": 32,
+          "pct": 8.60215053763441
+        },
+        "subscription_flexibility": {
+          "count": 33,
+          "pct": 8.870967741935484
+        },
+        "efficacy_timeline": {
+          "count": 33,
+          "pct": 8.870967741935484
+        },
+        "result_tracking": {
+          "count": 32,
+          "pct": 8.60215053763441
+        },
+        "fragrance_sensitivity": {
+          "count": 37,
+          "pct": 9.946236559139784
+        },
+        "side_effect_concern": {
+          "count": 35,
+          "pct": 9.408602150537634
+        },
+        "dosage_confusion": {
+          "count": 37,
+          "pct": 9.946236559139784
+        },
+        "skin_type_mismatch": {
+          "count": 40,
+          "pct": 10.75268817204301
+        },
+        "price_value_mismatch": {
+          "count": 31,
+          "pct": 8.333333333333332
+        },
+        "combination_guidance": {
+          "count": 34,
+          "pct": 9.13978494623656
+        },
+        "vegan_certification": {
+          "count": 41,
+          "pct": 11.021505376344086
+        }
+      }
+    },
+    {
+      "brand": "Minimalist",
+      "total_reviews": 368,
+      "needs": {
+        "result_tracking": {
+          "count": 45,
+          "pct": 12.228260869565217
+        },
+        "skin_type_mismatch": {
+          "count": 46,
+          "pct": 12.5
+        },
+        "ingredient_transparency": {
+          "count": 32,
+          "pct": 8.695652173913043
+        },
+        "packaging_sustainability": {
+          "count": 36,
+          "pct": 9.782608695652174
+        },
+        "allergen_labeling": {
+          "count": 39,
+          "pct": 10.597826086956522
+        },
+        "side_effect_concern": {
+          "count": 33,
+          "pct": 8.967391304347826
+        },
+        "subscription_flexibility": {
+          "count": 33,
+          "pct": 8.967391304347826
+        },
+        "efficacy_timeline": {
+          "count": 41,
+          "pct": 11.141304347826086
+        },
+        "personalization_demand": {
+          "count": 29,
+          "pct": 7.880434782608696
+        },
+        "travel_size_demand": {
+          "count": 37,
+          "pct": 10.054347826086957
+        },
+        "price_value_mismatch": {
+          "count": 33,
+          "pct": 8.967391304347826
+        },
+        "vegan_certification": {
+          "count": 23,
+          "pct": 6.25
+        },
+        "dosage_confusion": {
+          "count": 35,
+          "pct": 9.510869565217392
+        },
+        "fragrance_sensitivity": {
+          "count": 31,
+          "pct": 8.423913043478262
+        },
+        "combination_guidance": {
+          "count": 34,
+          "pct": 9.239130434782608
+        }
+      }
+    },
+    {
+      "brand": "WOW Skin Science",
+      "total_reviews": 366,
+      "needs": {
+        "allergen_labeling": {
+          "count": 34,
+          "pct": 9.289617486338798
+        },
+        "travel_size_demand": {
+          "count": 30,
+          "pct": 8.19672131147541
+        },
+        "skin_type_mismatch": {
+          "count": 30,
+          "pct": 8.19672131147541
+        },
+        "packaging_sustainability": {
+          "count": 27,
+          "pct": 7.377049180327869
+        },
+        "combination_guidance": {
+          "count": 31,
+          "pct": 8.469945355191257
+        },
+        "result_tracking": {
+          "count": 43,
+          "pct": 11.748633879781421
+        },
+        "ingredient_transparency": {
+          "count": 44,
+          "pct": 12.021857923497267
+        },
+        "efficacy_timeline": {
+          "count": 26,
+          "pct": 7.103825136612022
+        },
+        "vegan_certification": {
+          "count": 34,
+          "pct": 9.289617486338798
+        },
+        "fragrance_sensitivity": {
+          "count": 33,
+          "pct": 9.01639344262295
+        },
+        "subscription_flexibility": {
+          "count": 55,
+          "pct": 15.027322404371585
+        },
+        "personalization_demand": {
+          "count": 37,
+          "pct": 10.10928961748634
+        },
+        "side_effect_concern": {
+          "count": 34,
+          "pct": 9.289617486338798
+        },
+        "price_value_mismatch": {
+          "count": 35,
+          "pct": 9.562841530054644
+        },
+        "dosage_confusion": {
+          "count": 36,
+          "pct": 9.836065573770492
+        }
+      }
+    },
+    {
+      "brand": "mCaffeine",
+      "total_reviews": 364,
+      "needs": {
+        "side_effect_concern": {
+          "count": 38,
+          "pct": 10.43956043956044
+        },
+        "price_value_mismatch": {
+          "count": 39,
+          "pct": 10.714285714285714
+        },
+        "allergen_labeling": {
+          "count": 44,
+          "pct": 12.087912087912088
+        },
+        "combination_guidance": {
+          "count": 34,
+          "pct": 9.340659340659341
+        },
+        "ingredient_transparency": {
+          "count": 39,
+          "pct": 10.714285714285714
+        },
+        "vegan_certification": {
+          "count": 38,
+          "pct": 10.43956043956044
+        },
+        "dosage_confusion": {
+          "count": 32,
+          "pct": 8.791208791208792
+        },
+        "efficacy_timeline": {
+          "count": 36,
+          "pct": 9.89010989010989
+        },
+        "personalization_demand": {
+          "count": 33,
+          "pct": 9.065934065934066
+        },
+        "result_tracking": {
+          "count": 39,
+          "pct": 10.714285714285714
+        },
+        "packaging_sustainability": {
+          "count": 28,
+          "pct": 7.6923076923076925
+        },
+        "fragrance_sensitivity": {
+          "count": 42,
+          "pct": 11.538461538461538
+        },
+        "subscription_flexibility": {
+          "count": 31,
+          "pct": 8.516483516483516
+        },
+        "skin_type_mismatch": {
+          "count": 38,
+          "pct": 10.43956043956044
+        },
+        "travel_size_demand": {
+          "count": 32,
+          "pct": 8.791208791208792
+        }
+      }
+    },
+    {
+      "brand": "Pilgrim",
+      "total_reviews": 353,
+      "needs": {
+        "result_tracking": {
+          "count": 35,
+          "pct": 9.91501416430595
+        },
+        "travel_size_demand": {
+          "count": 31,
+          "pct": 8.78186968838527
+        },
+        "combination_guidance": {
+          "count": 29,
+          "pct": 8.21529745042493
+        },
+        "skin_type_mismatch": {
+          "count": 37,
+          "pct": 10.48158640226629
+        },
+        "packaging_sustainability": {
+          "count": 32,
+          "pct": 9.06515580736544
+        },
+        "dosage_confusion": {
+          "count": 39,
+          "pct": 11.048158640226628
+        },
+        "side_effect_concern": {
+          "count": 28,
+          "pct": 7.932011331444759
+        },
+        "price_value_mismatch": {
+          "count": 35,
+          "pct": 9.91501416430595
+        },
+        "personalization_demand": {
+          "count": 36,
+          "pct": 10.198300283286118
+        },
+        "allergen_labeling": {
+          "count": 34,
+          "pct": 9.631728045325778
+        },
+        "vegan_certification": {
+          "count": 32,
+          "pct": 9.06515580736544
+        },
+        "subscription_flexibility": {
+          "count": 30,
+          "pct": 8.498583569405099
+        },
+        "ingredient_transparency": {
+          "count": 31,
+          "pct": 8.78186968838527
+        },
+        "fragrance_sensitivity": {
+          "count": 31,
+          "pct": 8.78186968838527
+        },
+        "efficacy_timeline": {
+          "count": 36,
+          "pct": 10.198300283286118
+        }
+      }
+    }
+  ],
+  "platform_analysis": [
+    {
+      "platform": "Brand Website",
+      "total_reviews": 1409,
+      "avg_rating": 2.894251242015614,
+      "avg_helpful_votes": 49.90844570617459,
+      "top_needs": [
+        {
+          "tag": "vegan_certification",
+          "count": 169,
+          "pct": 11.994322214336409
+        },
+        {
+          "tag": "combination_guidance",
+          "count": 157,
+          "pct": 11.142654364797728
+        },
+        {
+          "tag": "result_tracking",
+          "count": 151,
+          "pct": 10.716820440028389
+        }
+      ]
+    },
+    {
+      "platform": "Flipkart",
+      "total_reviews": 1451,
+      "avg_rating": 2.984838042729152,
+      "avg_helpful_votes": 48.29841488628532,
+      "top_needs": [
+        {
+          "tag": "subscription_flexibility",
+          "count": 161,
+          "pct": 11.09579600275672
+        },
+        {
+          "tag": "result_tracking",
+          "count": 159,
+          "pct": 10.957960027567196
+        },
+        {
+          "tag": "ingredient_transparency",
+          "count": 155,
+          "pct": 10.682288077188145
+        }
+      ]
+    },
+    {
+      "platform": "Nykaa",
+      "total_reviews": 1466,
+      "avg_rating": 2.956343792633015,
+      "avg_helpful_votes": 50.72100954979536,
+      "top_needs": [
+        {
+          "tag": "allergen_labeling",
+          "count": 157,
+          "pct": 10.709413369713507
+        },
+        {
+          "tag": "subscription_flexibility",
+          "count": 156,
+          "pct": 10.641200545702592
+        },
+        {
+          "tag": "side_effect_concern",
+          "count": 153,
+          "pct": 10.43656207366985
+        }
+      ]
+    },
+    {
+      "platform": "Amazon",
+      "total_reviews": 1468,
+      "avg_rating": 2.9611716621253406,
+      "avg_helpful_votes": 50.490463215258856,
+      "top_needs": [
+        {
+          "tag": "personalization_demand",
+          "count": 164,
+          "pct": 11.1716621253406
+        },
+        {
+          "tag": "ingredient_transparency",
+          "count": 161,
+          "pct": 10.967302452316076
+        },
+        {
+          "tag": "packaging_sustainability",
+          "count": 156,
+          "pct": 10.626702997275205
+        }
+      ]
+    }
+  ],
+  "verified_purchase_analysis": {
+    "verified": {
+      "count": 4946,
+      "avg_rating": 2.9530934088152043,
+      "avg_helpful_votes": 49.85725839061868,
+      "top_needs": [
+        "ingredient_transparency",
+        "personalization_demand",
+        "result_tracking"
+      ]
+    },
+    "unverified": {
+      "count": 848,
+      "avg_rating": 2.9292452830188678,
+      "avg_helpful_votes": 49.864386792452834,
+      "top_needs": [
+        "subscription_flexibility",
+        "price_value_mismatch",
+        "allergen_labeling"
+      ]
+    },
+    "insight_note": "Verified purchases have avg rating 2.95 compared to 2.93 for unverified, showing higher satisfaction."
+  },
+  "rating_distribution": [
+    {
+      "tag": "personalization_demand",
+      "distribution": {
+        "1": 210,
+        "2": 206,
+        "3": 84,
+        "4": 59,
+        "5": 39
+      },
+      "pct_1_star": 35.11705685618729,
+      "pct_low": 69.56521739130434
+    },
+    {
+      "tag": "allergen_labeling",
+      "distribution": {
+        "1": 201,
+        "2": 210,
+        "3": 78,
+        "4": 40,
+        "5": 41
+      },
+      "pct_1_star": 35.26315789473684,
+      "pct_low": 72.10526315789474
+    },
+    {
+      "tag": "result_tracking",
+      "distribution": {
+        "1": 182,
+        "2": 234,
+        "3": 83,
+        "4": 43,
+        "5": 43
+      },
+      "pct_1_star": 31.11111111111111,
+      "pct_low": 71.11111111111111
+    },
+    {
+      "tag": "skin_type_mismatch",
+      "distribution": {
+        "1": 211,
+        "2": 195,
+        "3": 98,
+        "4": 30,
+        "5": 52
+      },
+      "pct_1_star": 36.00682593856656,
+      "pct_low": 69.28327645051195
+    },
+    {
+      "tag": "ingredient_transparency",
+      "distribution": {
+        "1": 220,
+        "2": 226,
+        "3": 95,
+        "4": 31,
+        "5": 38
+      },
+      "pct_1_star": 36.0655737704918,
+      "pct_low": 73.11475409836066
+    },
+    {
+      "tag": "combination_guidance",
+      "distribution": {
+        "1": 190,
+        "2": 206,
+        "3": 66,
+        "4": 40,
+        "5": 40
+      },
+      "pct_1_star": 35.05535055350554,
+      "pct_low": 73.06273062730627
+    },
+    {
+      "tag": "travel_size_demand",
+      "distribution": {
+        "1": 177,
+        "2": 189,
+        "3": 65,
+        "4": 43,
+        "5": 34
+      },
+      "pct_1_star": 34.84251968503937,
+      "pct_low": 72.04724409448819
+    },
+    {
+      "tag": "packaging_sustainability",
+      "distribution": {
+        "1": 184,
+        "2": 212,
+        "3": 76,
+        "4": 32,
+        "5": 23
+      },
+      "pct_1_star": 34.9146110056926,
+      "pct_low": 75.14231499051233
+    },
+    {
+      "tag": "side_effect_concern",
+      "distribution": {
+        "1": 204,
+        "2": 204,
+        "3": 76,
+        "4": 32,
+        "5": 35
+      },
+      "pct_1_star": 37.02359346642468,
+      "pct_low": 74.04718693284936
+    },
+    {
+      "tag": "price_value_mismatch",
+      "distribution": {
+        "1": 195,
+        "2": 212,
+        "3": 80,
+        "4": 40,
+        "5": 44
+      },
+      "pct_1_star": 34.15061295971979,
+      "pct_low": 71.2784588441331
+    },
+    {
+      "tag": "vegan_certification",
+      "distribution": {
+        "1": 226,
+        "2": 191,
+        "3": 90,
+        "4": 41,
+        "5": 31
+      },
+      "pct_1_star": 39.03281519861831,
+      "pct_low": 72.02072538860104
+    },
+    {
+      "tag": "fragrance_sensitivity",
+      "distribution": {
+        "1": 178,
+        "2": 197,
+        "3": 76,
+        "4": 46,
+        "5": 44
+      },
+      "pct_1_star": 32.90203327171904,
+      "pct_low": 69.31608133086876
+    },
+    {
+      "tag": "efficacy_timeline",
+      "distribution": {
+        "1": 190,
+        "2": 212,
+        "3": 77,
+        "4": 42,
+        "5": 42
+      },
+      "pct_1_star": 33.747779751332146,
+      "pct_low": 71.40319715808171
+    },
+    {
+      "tag": "subscription_flexibility",
+      "distribution": {
+        "1": 208,
+        "2": 215,
+        "3": 75,
+        "4": 38,
+        "5": 52
+      },
+      "pct_1_star": 35.374149659863946,
+      "pct_low": 71.93877551020408
+    },
+    {
+      "tag": "dosage_confusion",
+      "distribution": {
+        "1": 193,
+        "2": 201,
+        "3": 85,
+        "4": 38,
+        "5": 41
+      },
+      "pct_1_star": 34.587813620071685,
+      "pct_low": 70.60931899641577
+    }
+  ],
+  "key_discoveries": [
+    {
+      "id": "D1",
+      "title": "Dominant Category Pain Point",
+      "finding": "Top pain in Hair Care is 'subscription_flexibility'",
+      "evidence": "Observed in 90 reviews for this category",
+      "implication": "Target this specific issue in category-specific marketing.",
+      "discovery_type": "pattern"
+    },
+    {
+      "id": "D2",
+      "title": "Strongest Need Correlation",
+      "finding": "'ingredient_transparency' frequently co-occurs with 'personalization_demand'",
+      "evidence": "Co-occurs in 78 reviews (1.3% of all reviews)",
+      "implication": "Addressing one of these issues without the other may lead to incomplete customer satisfaction.",
+      "discovery_type": "correlation"
+    },
+    {
+      "id": "D3",
+      "title": "Urgent Brand Vulnerability",
+      "finding": "'side_effect_concern' is a severe issue",
+      "evidence": "Rating drops to 2.07 when mentioned",
+      "implication": "Competitors ignoring this issue are vulnerable to disruption.",
+      "discovery_type": "anomaly"
+    },
+    {
+      "id": "D4",
+      "title": "Verified vs Unverified Sentiment Gap",
+      "finding": "Difference in helpfulness and ratings between verified and unverified purchasers.",
+      "evidence": "Verified rating: 2.95, Unverified: 2.93",
+      "implication": "Real purchasers may have different priorities than window shoppers.",
+      "discovery_type": "gap"
+    }
+  ],
   "r_and_d_recommendation": {
     "primary_recommendation": {
       "tag": "vegan_certification",
       "opportunity_score": 85.98,
       "product_concept": "100% Certified Vegan & Clean-Label Transparent Supplement / Skincare Line",
-      "rationale": "The #1 unmet consumer need is 'vegan_certification' (Opportunity Score: 85.98), supported closely by 'ingredient_transparency' (Score: 74.89). Consumers report high frustration (2.07/5 star rating) and vote heavily on reviews demanding third-party vegan certification and full ingredient sourcing transparency."
+      "rationale": "The #1 unmet consumer need is 'vegan_certification' (Opportunity Score: 85.98), supported closely by 'ingredient_transparency' (Score: 74.89). 72.0% of reviews mentioning this need give 1 or 2 stars. Consumers vote heavily on reviews demanding third-party vegan certification and full ingredient sourcing transparency."
     }
   }
 }

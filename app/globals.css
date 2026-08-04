@@ -490,9 +490,360 @@ a {
   line-height: 1.4;
 }
 
-/* Drill-Down Section */
+.insight-score {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* ============================================================ */
+/*  Section wrapper                                              */
+/* ============================================================ */
+
+.section {
+  padding: 1.25rem;
+}
+
+.section-head {
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+/* ============================================================ */
+/*  Discovery cards                                              */
+/* ============================================================ */
+
+.discovery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.85rem;
+}
+
+.discovery-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.discovery-card:hover {
+  border-color: var(--border-focus);
+}
+
+.discovery-card-head {
+  margin-bottom: 0.6rem;
+}
+
+.discovery-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+
+.discovery-type-badge[data-type="pattern"] {
+  color: var(--color-sky);
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.discovery-type-badge[data-type="correlation"] {
+  color: var(--color-indigo);
+  background: rgba(124, 131, 247, 0.1);
+}
+
+.discovery-type-badge[data-type="anomaly"] {
+  color: var(--color-rose);
+  background: rgba(251, 113, 133, 0.1);
+}
+
+.discovery-type-badge[data-type="gap"] {
+  color: var(--color-amber);
+  background: rgba(251, 191, 36, 0.1);
+}
+
+.discovery-card-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-bottom: 0.35rem;
+}
+
+.discovery-card-finding {
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  line-height: 1.45;
+  margin-bottom: 0.25rem;
+}
+
+.discovery-card-evidence {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  margin-bottom: 0.35rem;
+}
+
+.discovery-card-implication {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  font-style: italic;
+}
+
+/* ============================================================ */
+/*  Recommendation panel extras                                  */
+/* ============================================================ */
+
+.rec-score-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ============================================================ */
+/*  Methodology collapsible                                      */
+/* ============================================================ */
+
+.collapsible {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.collapsible-trigger {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1.25rem;
+  background: var(--bg-card);
+  border: none;
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.collapsible-trigger:hover {
+  background: var(--bg-card-hover);
+}
+
+.collapsible-trigger-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.collapsible-body {
+  padding: 1rem 1.25rem 1.25rem;
+  background: var(--bg-card);
+  border-top: 1px solid var(--border-color);
+}
+
+.methodology-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.methodology-formula {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.formula-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-bright);
+  white-space: nowrap;
+}
+
+.formula-code {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-indigo);
+}
+
+.methodology-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.methodology-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem;
+}
+
+.methodology-item-head {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.methodology-item p {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.methodology-note {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* ============================================================ */
+/*  Analysis grid (2 column)                                     */
+/* ============================================================ */
+
+.analysis-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* ============================================================ */
+/*  Mini tables                                                  */
+/* ============================================================ */
+
+.mini-table-wrap {
+  overflow-x: auto;
+}
+
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.mini-table thead tr {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.mini-table th {
+  padding: 0.5rem 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.mini-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+}
+
+.mini-tag {
+  display: inline-block;
+  background: rgba(124, 131, 247, 0.1);
+  color: var(--color-indigo);
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+/* ============================================================ */
+/*  Verified purchase analysis                                   */
+/* ============================================================ */
+
+.verified-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.85rem;
+}
+
+.verified-block {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+}
+
+.verified-block-head {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  font-size: 0.82rem;
+  color: var(--text-primary);
+  margin-bottom: 0.6rem;
+}
+
+.verified-stats {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.verified-stats > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.verified-stat-label {
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 600;
+}
+
+.verified-stat-val {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.verified-needs {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.verified-insight {
+  grid-column: span 2;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  padding-top: 0.25rem;
+}
+
+/* ============================================================ */
+/*  Drilldown charts                                             */
+/* ============================================================ */
+
 .drilldown {
   padding: 1.5rem;
+  scroll-margin-top: 1rem;
 }
 
 .drilldown-header {
@@ -511,6 +862,7 @@ a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .drilldown-sub {
@@ -556,7 +908,77 @@ a {
   font-weight: 700;
 }
 
-/* Review Excerpts Section Title */
+.drilldown-charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.drilldown-chart-box {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+}
+
+.drilldown-chart-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.6rem;
+}
+
+/* Co-occurrence list in drilldown */
+.cooccur-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-top: 0.25rem;
+}
+
+.cooccur-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cooccur-tag {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  min-width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cooccur-bar-wrap {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 3px;
+  height: 5px;
+  overflow: hidden;
+}
+
+.cooccur-bar {
+  height: 100%;
+  background: var(--color-indigo);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.cooccur-count {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  min-width: 28px;
+  text-align: right;
+}
+
+/* Review excerpts */
 .excerpts-title {
   font-size: 0.9rem;
   font-weight: 700;
@@ -567,7 +989,6 @@ a {
   gap: 0.5rem;
 }
 
-/* Review Cards Grid */
 .review-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -640,9 +1061,20 @@ a {
   gap: 0.3rem;
 }
 
-/* Responsive */
+/* ============================================================ */
+/*  Responsive                                                   */
+/* ============================================================ */
+
 @media (max-width: 1024px) {
   .main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .analysis-grid-2col {
+    grid-template-columns: 1fr;
+  }
+
+  .drilldown-charts {
     grid-template-columns: 1fr;
   }
 
@@ -653,6 +1085,14 @@ a {
 
   .header-stats {
     width: 100%;
+  }
+
+  .verified-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .verified-insight {
+    grid-column: span 1;
   }
 }
 
@@ -679,6 +1119,10 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .discovery-grid {
+    grid-template-columns: 1fr;
+  }
+
   .rec-details {
     flex-direction: column;
     gap: 0.5rem;
@@ -691,5 +1135,9 @@ a {
 
   .needs-table {
     font-size: 0.8rem;
+  }
+
+  .methodology-grid {
+    grid-template-columns: 1fr;
   }
 }
