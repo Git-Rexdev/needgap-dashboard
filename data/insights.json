@@ -1,0 +1,168 @@
+{
+  "summary_metrics": {
+    "average_frequency_pct": 9.75,
+    "average_rating": 2.14,
+    "average_helpful_votes": 49.99
+  },
+  "rare_but_severe_needs": [
+    {
+      "tag": "side_effect_concern",
+      "opportunity_score": 60.31,
+      "frequency_pct": 9.51,
+      "avg_rating": 2.07,
+      "avg_helpful_votes": 50.03,
+      "plain_english_note": "High consumer pain (rating 2.07) with strong social validation (50.03 helpful votes/review) despite lower overall volume (9.51%). Urgent fix target."
+    },
+    {
+      "tag": "combination_guidance",
+      "opportunity_score": 58.29,
+      "frequency_pct": 9.35,
+      "avg_rating": 2.14,
+      "avg_helpful_votes": 51.62,
+      "plain_english_note": "High consumer pain (rating 2.14) with strong social validation (51.62 helpful votes/review) despite lower overall volume (9.35%). Urgent fix target."
+    }
+  ],
+  "cross_brand_systemic_needs": [
+    {
+      "tag": "vegan_certification",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 9.15,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 9.2% share)."
+    },
+    {
+      "tag": "ingredient_transparency",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 7.7,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 7.7% share)."
+    },
+    {
+      "tag": "side_effect_concern",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 10.16,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 10.2% share)."
+    },
+    {
+      "tag": "subscription_flexibility",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 9.52,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 9.5% share)."
+    },
+    {
+      "tag": "combination_guidance",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 9.04,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 9.0% share)."
+    },
+    {
+      "tag": "efficacy_timeline",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 8.88,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 8.9% share)."
+    },
+    {
+      "tag": "packaging_sustainability",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 8.92,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 8.9% share)."
+    },
+    {
+      "tag": "result_tracking",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 9.74,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 9.7% share)."
+    },
+    {
+      "tag": "allergen_labeling",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 8.6,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 8.6% share)."
+    },
+    {
+      "tag": "dosage_confusion",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 9.14,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 9.1% share)."
+    },
+    {
+      "tag": "price_value_mismatch",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 8.23,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 8.2% share)."
+    },
+    {
+      "tag": "personalization_demand",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 10.37,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 10.4% share)."
+    },
+    {
+      "tag": "skin_type_mismatch",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 8.53,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 8.5% share)."
+    },
+    {
+      "tag": "fragrance_sensitivity",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 8.5,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 8.5% share)."
+    },
+    {
+      "tag": "travel_size_demand",
+      "brand_dispersion_count": 5,
+      "top_brand_share_pct": 7.68,
+      "plain_english_note": "Industry-wide systemic issue spreading evenly across top competitor brands (top brand holds only 7.7% share)."
+    }
+  ],
+  "brand_specific_needs": [],
+  "low_signal_deprioritized_needs": [
+    {
+      "tag": "price_value_mismatch",
+      "opportunity_score": 45.88,
+      "frequency_pct": 9.86,
+      "avg_rating": 2.17,
+      "avg_helpful_votes": 49.62,
+      "plain_english_note": "High rating (2.17) and low community validation (49.62 votes). Deprioritize for R&D focus."
+    },
+    {
+      "tag": "personalization_demand",
+      "opportunity_score": 43.88,
+      "frequency_pct": 10.32,
+      "avg_rating": 2.18,
+      "avg_helpful_votes": 48.57,
+      "plain_english_note": "High rating (2.18) and low community validation (48.57 votes). Deprioritize for R&D focus."
+    },
+    {
+      "tag": "skin_type_mismatch",
+      "opportunity_score": 37.79,
+      "frequency_pct": 10.11,
+      "avg_rating": 2.18,
+      "avg_helpful_votes": 48.17,
+      "plain_english_note": "High rating (2.18) and low community validation (48.17 votes). Deprioritize for R&D focus."
+    },
+    {
+      "tag": "fragrance_sensitivity",
+      "opportunity_score": 26.8,
+      "frequency_pct": 9.34,
+      "avg_rating": 2.23,
+      "avg_helpful_votes": 49.77,
+      "plain_english_note": "High rating (2.23) and low community validation (49.77 votes). Deprioritize for R&D focus."
+    },
+    {
+      "tag": "travel_size_demand",
+      "opportunity_score": 14.07,
+      "frequency_pct": 8.77,
+      "avg_rating": 2.15,
+      "avg_helpful_votes": 47.86,
+      "plain_english_note": "High rating (2.15) and low community validation (47.86 votes). Deprioritize for R&D focus."
+    }
+  ],
+  "r_and_d_recommendation": {
+    "primary_recommendation": {
+      "tag": "vegan_certification",
+      "opportunity_score": 85.98,
+      "product_concept": "100% Certified Vegan & Clean-Label Transparent Supplement / Skincare Line",
+      "rationale": "The #1 unmet consumer need is 'vegan_certification' (Opportunity Score: 85.98), supported closely by 'ingredient_transparency' (Score: 74.89). Consumers report high frustration (2.07/5 star rating) and vote heavily on reviews demanding third-party vegan certification and full ingredient sourcing transparency."
+    }
+  }
+}
